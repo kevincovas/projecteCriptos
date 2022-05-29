@@ -1,15 +1,19 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <Earn />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+
+import Etheruem from './components/Criptomonedas/Etheruem.vue'
+import Bitcoin from './components/Criptomonedas/Bitcoin.vue'
+import Earn from './components/Earn/earnBTC.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Bitcoin,
+    Etheruem,
+    Earn
   }
 }
 </script>
